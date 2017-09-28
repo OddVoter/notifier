@@ -1,4 +1,4 @@
-# DemocracyOS Notifier
+# OddVoter Notifier
 Embeddable notifications engine that relies on MongoDB for job queuing and scheduling. Powered by rschmukler/agenda
 
 ## Mailer Configuration
@@ -8,7 +8,7 @@ Uses [NodeMailer](https://www.npmjs.com/package/nodemailer) package for email ha
 ### SendGrid Example
 
 ```javascript
-var notifier = require('democracyos-notifier')({
+var notifier = require('oddvoter-notifier')({
   mailer: {
     service: 'sendgrid',
     auth: {
@@ -22,7 +22,7 @@ var notifier = require('democracyos-notifier')({
 ### Gmail Example
 
 ```javascript
-var notifier = require('democracyos-notifier')({
+var notifier = require('oddvoter-notifier')({
   mailer: {
     service: 'gmail',
     auth: {
@@ -38,5 +38,5 @@ var notifier = require('democracyos-notifier')({
 Not recommended for `production`. Using direct transport is not reliable as outgoing port 25 used is often blocked by default. Additionally mail sent from dynamic addresses is often flagged as spam. You should really consider using a SMTP provider.
 
 ```javascript
-var notifier = require('democracyos-notifier')()
+var notifier = require('oddvoter-notifier')()
 ```

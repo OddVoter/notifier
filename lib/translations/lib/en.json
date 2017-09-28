@@ -1,8 +1,8 @@
 {
   "templates.email.greeting": "Hi, {userName},",
-  "templates.email.signature": "The DemocracyOS team.",
+  "templates.email.signature": "The OddVoter team.",
 
-  "templates.welcome-email.subject": "Welcome to DemocracyOS!",
+  "templates.welcome-email.subject": "Welcome to OddVoter!",
   "templates.welcome-email.body": "Please <a href=\"{validateUrl}\">click here</a> to validate your email address.",
   "templates.welcome-email.ps": "PS: if you didn't sign up, please ignore this email.",
 

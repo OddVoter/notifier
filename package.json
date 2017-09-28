@@ -1,6 +1,6 @@
 {
-  "name": "democracyos-notifier",
-  "version": "2.1.2",
+  "name": "oddvoter-notifier",
+  "version": "1.1.1",
   "description": "Notifications engine with job queuing and scheduling backed by MongoDB.",
   "main": "index.js",
   "scripts": {
@@ -8,20 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DemocracyOS/notifier.git"
+    "url": "https://github.com/OddVoter/notifier.git"
   },
   "keywords": [
     "notifier",
-    "democracyos",
+    "oddvooter",
     "notifiations",
     "email"
   ],
   "author": "Democracia en Red <speak@democracyos.org> (http://democraciaenred.org/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DemocracyOS/notifier/issues"
+    "url": "https://github.com/OddVoter/notifier/issues"
   },
-  "homepage": "https://github.com/DemocracyOS/notifier",
+  "homepage": "https://github.com/OddVoter/notifier",
   "dependencies": {
     "agenda": "~0.9.0",
     "debug": "~2.6.0",

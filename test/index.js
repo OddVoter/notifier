@@ -48,17 +48,17 @@ describe('translations', function () {
   var t = require('../lib/translations').t
   t.test = {
     'templates.email.greeting': 'Hi, {USER_NAME},',
-    'templates.email.signature': 'The DemocracyOS team.'
+    'templates.email.signature': 'The OddVoter team.'
   }
 
   t.test2 = {
     'templates.email.greeting': 'Bonjour, {USER_NAME},',
-    'templates.email.signature': "L'équipe de DemocracyOS."
+    'templates.email.signature': "L'équipe de OddVoter."
   }
 
   it('should return linguistic version of prop', function () {
-    expect(t('templates.email.signature', 'test')).to.eql('The DemocracyOS team.')
-    expect(t('templates.email.signature', 'test2')).to.eql("L'équipe de DemocracyOS.")
+    expect(t('templates.email.signature', 'test')).to.eql('The OddVoter team.')
+    expect(t('templates.email.signature', 'test2')).to.eql("L'équipe de OddVoter.")
   })
 
   it('should return placeholders as-is if no props match', function () {
